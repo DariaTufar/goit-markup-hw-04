@@ -1,3 +1,4 @@
+
 :root {
     --primary-text-color:#757575; ;
     --title-text-color:#212121 ;
@@ -5,6 +6,38 @@
     --primary-white-color: #FFFFFF;
     --main-font-family: "Roboto" , sans-serif;
 }
+/*---------------- default styles reset------------------- */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+a {
+    color: currentColor;
+}
+
+address {
+    font-style: normal;
+}
+
 
 body {
     font-family: var(--main-font-family);
@@ -33,6 +66,10 @@ h1 {
  .btn {
     cursor: pointer;
     font-family: inherit;
+    border-radius: 4px;
+    padding:  10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border:transparent;
  }
 
 .visually-hidden { 
@@ -47,6 +84,11 @@ h1 {
     clip-path: inset(50%);
     margin: -1px;
  }
+
+.container {
+    width: 1170px;
+    
+}
 
 /*-------------------------- HEADER---------------- */
 
@@ -63,10 +105,15 @@ h1 {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-logo-blueblack {
     color:var(--title-text-color)
+}
+.header-list {
+
 }
 
 .header-item{
@@ -74,11 +121,14 @@ h1 {
     line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: var(--title-text-color);  
+    color: var(--title-text-color); 
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-link {
     color: var(--title-text-color);
+
 }
 
 .header-link:hover, .header-link:focus, .header-link:active {
@@ -89,7 +139,10 @@ h1 {
     color: var(--accent-color);
 }
 
-.header-contact {}
+.header-contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .contact-item {
     color: var(--primary-text-color);
