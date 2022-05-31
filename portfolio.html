@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    <title>Сайт WebStudio</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+          rel="stylesheet">
+    
+    <link rel="stylesheet"
+          href="./css/styles.css">
+</head>
+
+<body>
+        <header class="header">
+            <nav class="header-nav">
+                <!-- need to add a real link later -->
+                <a href="./index.html"
+                   class="header-logo"
+                   lang="en"> Web<span class="header-logo-blueblack">Studio</span>
+                </a>
+        
+                <ul class="header-list list">
+                    <!-- add a link later -->
+                    <li class="header-item "> <a target="_blank"
+                           href="./index.html"
+                           class="header-link link ">Студия </a> </li>
+                    <li class="header-item"> <a target="_blank"
+                           href="./portfolio.html"
+                           class="header-link link current-page">Портфолио </a> </li>
+                    <li class="header-item"> <a target="_blank"
+                           href="#"
+                           class="header-link link">Контакты </a> </li>
+                </ul>
+            </nav>
+        
+            <!--  contact is different than in a header -->
+            <ul class="header-contact list">
+                <li><a href="mailto:info@devstudio.com"
+                       class="contact-item link">
+                        info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111"
+                       class="contact-item link">+38 096 111 11 11</a></li>
+            </ul>
+        </header>
+
+    <main>
+
+        <section class="portfolio-examples">
+            <!-- its radiobutton - but works as filter -->
+            <!--  dont forget to hide text - its not in figma-->
+            
+            <h1   class="visually-hidden"> наши работы </h1>
+            <ul class="portfolio-filter-list list">
+                <li> <button type="button" class="portfolio-filter-btn  btn current-btn"> Все </button></li>
+                <li> <button type="button" class="portfolio-filter-btn  btn"> Веб-сайты </button></li>
+                <li> <button type="button" class="portfolio-filter-btn  btn"> Приложения </button></li>
+                <li> <button type="button" class="portfolio-filter-btn  btn">Дизайн </button></li>
+                <li> <button type="button" class="portfolio-filter-btn  btn"> Маркетинг </button></li>
+            </ul>
+
+            <ul class="portfolio-examples-list list">
+                <li class="portfolio-examples-item"> 
+                    <a href="#" class="portfolio-examples-link link">   
+                        <img class="portfolio-examples-foto" 
+                        src="./images/img-website-tehnocryak.jpg"
+                            alt="фото компьютера с веб- сайтом Технокряк"
+                            width="370" height="294">
+                        <h2 class="portfolio-examples-title"> Технокряк </h2> 
+                        <p class="portfolio-examples-descr">Веб-сайт </p>
+                    </a> 
+                </li>
+
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img class="portfolio-examples-foto"
+                        src="./images/img-design-poster-new-orlean.jpg"
+                             alt="фото постера два баскетболиста с мячом"
+                             width="370"
+                             height="294">
+                        <h2 class="portfolio-examples-title"> Постер New Orlean vs Golden Star   </h2>
+                        <p class="portfolio-examples-descr"> Дизайн</p>
+                    </a>
+                </li>
+
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img class="portfolio-examples-foto"
+                        src="./images/img-app-seafood.jpg"
+                             alt="картинка логотипа ресторана  с рыбой"
+                             width="370"
+                             height="294">
+                        <h2 class="portfolio-examples-title"> Ресторан Seafood</h2>
+                        <p class="portfolio-examples-descr">Приложение </p>
+                    </a>
+                </li>
+                
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img class="portfolio-examples-foto"
+                        src="./images/img-marketing-prime.jpg"
+                             alt=" фото черных наушников"
+                             width="370"
+                             height="294">
+                        <h2 class="portfolio-examples-title"> Проект Prime </h2>
+                        <p class="portfolio-examples-descr">Маркетинг</p>
+                    </a>
+                </li>
+
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img class="portfolio-examples-foto"
+                        src="./images/img-app-boxes.jpg"
+                             alt=" картинка оранжевой и белой коробки"
+                             width="370"
+                             height="294">
+                        <h2 class="portfolio-examples-title">Проект Boxes </h2>
+                        <p class="portfolio-examples-descr">Приложение</p>
+                    </a>
+                </li>
+
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img class="portfolio-examples-foto"
+                        src="./images/img-website-inspiration.jpg"
+                             alt=" фото монитора комьютера с вебсайтом"
+                             width="370"
+                             height="294">
+                        <h2  class="portfolio-examples-title" lang="en"
+                        >Inspiration has no Borders</h2>
+                        <p class="portfolio-examples-descr">Веб-сайт</p>
+                    </a>
+                </li>
+
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img  class="portfolio-examples-foto"
+                        src="./images/img-design-limited-edition.jpg"
+                             alt="журнал издания "
+                             width="370"
+                             height="294">
+                        <h2 class="portfolio-examples-title"
+                        >Издание Limited Edition </h2>
+                        <p class="portfolio-examples-descr">Дизайн</p>
+                    </a>
+                </li>
+                
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img class="portfolio-examples-foto"
+                         src="./images/img-marketing-lab.jpg"
+                             alt=" картинка з лейблом та назвою "
+                             width="370"
+                             height="294">
+                        <h2 class="portfolio-examples-title"> Проект LAB</h2>
+                        <p class="portfolio-examples-descr" >Маркетинг</p>
+                    </a>
+                </li>
+                
+                <li class="portfolio-examples-item">
+                    <a href="#" class="portfolio-examples-link link">
+                        <img  class="portfolio-examples-foto"
+                        src="./images/img-app-growing-business.jpg"
+                             alt=" фото ноутбука с страницей приложения"
+                             width="370"
+                             height="294">
+                        <h2 class="portfolio-examples-title" lang="en"> Growing Business</h2>
+                        <p class="portfolio-examples-descr">Приложение</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer-main">
+            <a class="footer-logo"
+               href="./index.html">
+               Web<span class="footer-logo-bluewhite">Studio</span>
+            </a>
+               
+        <address>
+            <!-- contacts are different than in header -->
+            <ul class="footer-contact-list list">
+    
+                <li class="footer-contact-item">
+                    <a class="footer-contact-adress  link"
+                        href="https://goo.gl/maps/fVVCTX3WFLXZe7AJ9" target="_blank">
+                        г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+    
+                <li class="footer-contact-item">
+                    <a class="footer-contact-link"
+                        href="mailto:info@example.com">
+                        info@example.com</a>
+                </li>
+    
+                <li class="footer-contact-item">
+                    <a class="footer-number link"
+                        href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </footer>
+</body>
+</html>
