@@ -55,8 +55,12 @@ h1 {
     color: var(--primary-white-color);
 }
 
+/* uk aready   reset????? */
 .list {
     list-style-type: none;
+    margin: 0;
+    padding: 0; 
+
 }
 
 .link {
@@ -87,6 +91,7 @@ h1 {
 
 .container {
     width: 1170px;
+    outline: 1px solid tomato;
     
 }
 
@@ -140,13 +145,14 @@ h1 {
 }
 
 .header-contact {
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .contact-item {
     color: var(--primary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
+
 
 .contact-item:hover{
     color: var(--accent-color)
@@ -155,6 +161,11 @@ h1 {
 
 .hero {
     background-color: #2F303A;
+    text-align: center;
+}
+.hero-title {
+    padding-top: 200px;
+    outline: 1px solid tomato;
 }
 
 .btn-hero {  
@@ -164,6 +175,10 @@ h1 {
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    margin-top: 30px;
+    margin-bottom: 200px;
+
+    /* align-items: center; */
 }
 
 .btn-hero:hover {
@@ -174,8 +189,12 @@ h1 {
 /* ------------------------------НАШИ ПРЕИМУЩЕСТВА------------------- */
 .about-us {
     background-color: #E5E5E5;
+    margin-top: 94px;
 }
-
+.about-us-item{
+    width: 270px;
+    height: 101px;
+}
 .about-us-title {
     font-weight: 700;
     font-size: 14px;
@@ -190,6 +209,7 @@ h1 {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-top: 10px;
 }
 
 .our-work-title {
@@ -205,7 +225,8 @@ h1 {
 /*--------------------------- НАША КОМАНДА -------------------*/
 
 .team {
-    background: #F5F4FA  
+    background: #F5F4FA;
+    margin-top: 94px;  
 }
 
 .team-title {
@@ -215,6 +236,14 @@ h1 {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    padding-top: 94px;
+}
+.team-list {
+    margin-top: 50px;
+}
+
+.team-member {
+    margin-top: 50px;
 }
 
 .team-member-name {
@@ -223,10 +252,12 @@ h1 {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    margin-top: 30px;
 }
 
 .team-member-position {
     color: var(--primary-text-color);
+    margin-top: 10px;
 }
 
 /* -------------------ФУТЕР---------------------- */
