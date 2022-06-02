@@ -23,7 +23,7 @@
 
     <body>
         <header class="header">
-            <div class="container">
+            <div class="container header-main-nav">
                
                 <nav class="header-nav">
                     <a  href="#" class="header-logo" lang="en"> Web<span class="header-logo-blueblack">Studio</span>     
@@ -38,9 +38,9 @@
                 </nav>
               <!--  contact is different than in a header -->
                 <ul class="header-contact list">
-                    <li><a href="mailto:info@devstudio.com" class="contact-item link">
+                    <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-item-link link">
                                 info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="contact-item link">+38 096 111 11 11</a></li>          
+                    <li class="contact-item"><a href="tel:+380961111111" class="contact-item-link link">+38 096 111 11 11</a></li>          
                 </ul>
             </div>
         </header>
@@ -120,18 +120,25 @@
                         <img src="./images/team-card1.jpg" alt="фото Игоря Демьяненко"
                         class= "team-member-foto"
                          width="270"  height="260">
-                        <h3 class="team-member-name">Игорь Демьяненко</h3>
-                        <p lang="en" class="team-member-position"> Product Designer
-                        </p>                        
+                        <div class="team-name-position">
+                            <h3 class="team-member-name">
+                                Игорь Демьяненко</h3>
+                            <p lang="en" class="team-member-position"> Product Designer
+                            </p>    
+                        </div>                    
                     </li>
 
                     <li class="team-member">
                         <img src="./images/team-card-2.jpg" alt="фото Ольги Репиной"
                         class= "team-member-foto"
                         width="270"  height="260">
-                        <h3  class="team-member-name" >Ольга Репина</h3>
-                        <p lang="en" class="team-member-position">Frontend Developer
-                        </p>                        
+                        <div class="team-name-position">
+                            <h3  class="team-member-name">
+                                Ольга Репина</h3>
+                            <p lang="en" class="team-member-position">
+                            Frontend Developer
+                            </p>                        
+                        </div>
                     </li>
 
                     <li class="team-member">
@@ -139,45 +146,56 @@
                          alt="фото Николая Тарасова"
                          class= "team-member-foto"
                          width="270"  height="260">
-                        <h3  class="team-member-name">Николай Тарасов</h3>
-                        <p lang="en" class="team-member-position" >Marketing</p> 
+                        <div class="team-name-position">
+                            <h3  class="team-member-name">
+                                Николай Тарасов</h3>
+                            <p lang="en" class="team-member-position">
+                                Marketing</p> 
+                        </div>
                     </li>
 
                     <li class="team-member">
                         <img src="./images/team-card-4.jpg" alt="фото Михаила Ермакова"
                         class= "team-member-foto"
                         width="270"  height="260">
-                        <h3  class="team-member-name">Михаил Ермаков</h3>
-                        <p lang="en" class="team-member-position"> UI Designer</p>                    
+                        <div class="team-name-position">
+                            <h3  class="team-member-name">
+                                Михаил Ермаков</h3>
+                            <p lang="en" class="team-member-position">
+                                UI Designer</p>        
+                        </div>            
                     </li>
                 </ul>
             </section>
             </div>
         </main>
-        
-        <footer class="footer-main">
-            <a class=footer-logo href=".">
-                Web<span class="footer-logo-bluewhite">Studio</span> 
-            </a>               
-                <address>
-                    <!-- contacts are different than in header -->
-                    <ul class="footer-contact-list list">
 
-                        <li class="footer-contact-item">
-                            <a class="footer-contact-adress  link"  target="_blank"
-                            href="https://goo.gl/maps/fVVCTX3WFLXZe7AJ9"> 
-                            г. Киев, пр-т Леси Украинки, 26</a></li>
+        <div class="container">        
+            <footer class="footer-main">
+                <a class="footer-logo" href=".">
+                    Web<span class="footer-logo-bluewhite">Studio</span> 
+                </a>               
+                    <address>
+                        <!-- contacts are different than in header -->
+                        <ul class="footer-contact-list list">
 
-                        <li class="footer-contact-item" >
-                            <a class="footer-contact-link"
-                             href = "mailto:info@example.com" >
-                            info@example.com</a></li>
+                            <li class="footer-contact-item">
+                                <a class="footer-contact-adress  link"  target="_blank"
+                                href="https://goo.gl/maps/fVVCTX3WFLXZe7AJ9"> 
+                                г. Киев, пр-т Леси Украинки, 26
+                                </a></li>
 
-                        <li class="footer-contact-item">
-                            <a class="footer-number link" 
-                            href="tel:+380991111111">+38 099 111 11 11</a></li>
-                    </ul>
-                </address>
-        </footer>
+                            <li class="footer-contact-item" >
+                                <a class="footer-contact-link"
+                                href = "mailto:info@example.com" >
+                                info@example.com</a></li>
+
+                            <li class="footer-contact-item">
+                                <a class="footer-number link" 
+                                href="tel:+380991111111">+38 099 111 11 11</a></li>
+                        </ul>
+                    </address>
+            </footer>
+        </div>
     </body>
 </html>

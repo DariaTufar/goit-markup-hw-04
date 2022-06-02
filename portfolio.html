@@ -21,37 +21,38 @@
 </head>
 
 <body>
-        <header class="header">
+    <header class="header">
+        <div class="container header-main-nav">
+
             <nav class="header-nav">
-                <!-- need to add a real link later -->
                 <a href="./index.html"
-                   class="header-logo"
-                   lang="en"> Web<span class="header-logo-blueblack">Studio</span>
+                class="header-logo"
+                lang="en"> Web<span class="header-logo-blueblack">Studio</span>
                 </a>
-        
+
                 <ul class="header-list list">
                     <!-- add a link later -->
-                    <li class="header-item "> <a target="_blank"
-                           href="./index.html"
-                           class="header-link link ">Студия </a> </li>
                     <li class="header-item"> <a target="_blank"
-                           href="./portfolio.html"
-                           class="header-link link current-page">Портфолио </a> </li>
+                        href="./index.html"
+                        class="header-link link ">Студия </a> </li>
                     <li class="header-item"> <a target="_blank"
-                           href="#"
-                           class="header-link link">Контакты </a> </li>
+                        href="./portfolio.html"
+                        class="header-link link current-page">Портфолио </a> </li>
+                    <li class="header-item"> <a target="_blank"
+                        href="#"
+                        class="header-link link">Контакты </a> </li>
                 </ul>
             </nav>
-        
             <!--  contact is different than in a header -->
             <ul class="header-contact list">
-                <li><a href="mailto:info@devstudio.com"
-                       class="contact-item link">
+                <li class="contact-item"><a href="mailto:info@devstudio.com"
+                    class="contact-item-link link">
                         info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111"
-                       class="contact-item link">+38 096 111 11 11</a></li>
+                <li class="contact-item"><a href="tel:+380961111111"
+                    class="contact-item-link link">+38 096 111 11 11</a></li>
             </ul>
-        </header>
+        </div>
+    </header>
 
     <main>
 
@@ -60,15 +61,15 @@
             <!--  dont forget to hide text - its not in figma-->
             
             <h1   class="visually-hidden"> наши работы </h1>
-            <ul class="portfolio-filter-list list">
-                <li> <button type="button" class="portfolio-filter-btn  btn current-btn"> Все </button></li>
-                <li> <button type="button" class="portfolio-filter-btn  btn"> Веб-сайты </button></li>
-                <li> <button type="button" class="portfolio-filter-btn  btn"> Приложения </button></li>
-                <li> <button type="button" class="portfolio-filter-btn  btn">Дизайн </button></li>
-                <li> <button type="button" class="portfolio-filter-btn  btn"> Маркетинг </button></li>
+            <ul class="portfolio-filter-list list container" >
+                <li class="portfolio-filter-btn"> <button type="button" class="portfolio-filter-btn  btn current-btn"> Все </button></li>
+                <li class="portfolio-filter-btn"> <button type="button" class="portfolio-filter-btn  btn"> Веб-сайты </button></li>
+                <li class="portfolio-filter-btn"> <button type="button" class="portfolio-filter-btn  btn"> Приложения </button></li>
+                <li class="portfolio-filter-btn"> <button type="button" class="portfolio-filter-btn  btn">Дизайн </button></li>
+                <li class="portfolio-filter-btn"> <button type="button" class="portfolio-filter-btn  btn"> Маркетинг </button></li>
             </ul>
 
-            <ul class="portfolio-examples-list list">
+            <ul class="portfolio-examples-list list container">
                 <li class="portfolio-examples-item"> 
                     <a href="#" class="portfolio-examples-link link">   
                         <img class="portfolio-examples-foto" 
