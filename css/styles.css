@@ -266,12 +266,26 @@ h1 {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    min-height: 42px;
+    margin-bottom: 50px;
     
 }
 
 .our-work {
     margin-top: 94px;
-    padding-bottom: 94px;
+    margin-bottom: 94px;
+}
+.our-work-list {
+    display: flex; 
+    justify-content: center;
+   }
+
+.our-work-item {
+    margin-right: 30px;
+  
+}
+.our-work-item:last-child {
+    margin-right: 0px;
 }
 /*--------------------------- НАША КОМАНДА -------------------*/
 
@@ -291,15 +305,19 @@ h1 {
 }
 .team-list {
     margin-top: 50px;
+    display: flex;
 }
 
-.team-member {
-    margin-top: 50px;
+.team-member:not(:last-child) {
+  margin-right: 30px;
 }
+
 .team-name-position{
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
+ 
 
 .team-member-name {
     font-weight: 500;
