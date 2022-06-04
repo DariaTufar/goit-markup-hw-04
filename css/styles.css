@@ -106,6 +106,9 @@ section {
     padding-left: 15px;
     padding-right: 15px;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 /*-------------------------- HEADER---------------- */
@@ -466,6 +469,9 @@ section {
 
 .portfolio-examples-text {
     padding: 20px 24px 20px 24px;
+    border-left: var(--border-color-1px-solid);
+    border-right: var(--border-color-1px-solid);
+    border-bottom: var(--border-color-1px-solid);
 }
 
 .portfolio-examples-title {
@@ -475,8 +481,7 @@ section {
     letter-spacing: 0.06em;
 
     color:var(--title-text-color) ;
-    border-left: var(--border-color-1px-solid);
-    border-right: var(--border-color-1px-solid);
+
     margin-bottom: 4px;
     
 }
@@ -487,8 +492,5 @@ section {
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
-    border-bottom: var(--border-color-1px-solid);
-    border-left: var(--border-color-1px-solid);
-    border-right: var(--border-color-1px-solid);
-
+   
 }
