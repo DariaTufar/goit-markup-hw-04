@@ -153,9 +153,7 @@ section {
     align-items: center;
 }
 
-.header-list li{
-   
-}
+ 
 
 .header-item:not(:last-child) {
     margin-right: 50px;
@@ -184,17 +182,31 @@ section {
 .current-page {
     color: var(--accent-color);
 }
-
-.header-contact {
-    display: flex;
+.header-contact-icon{
+    width: 16px;
+    height: 16px;
+    align-items: flex-end;
+    margin-right: 10px;
+    /* justify-content: flex-end; */
 }
+
+.header-contact{
+    display: flex;
+    justify-content: right;
+    /* align-items: flex-end; */
+}  
+
+/* .contact-item{
+    display: flex;
+    justify-content: right;
+} */
 
 .contact-item-link {
      color: var(--primary-text-color);
 }
 
 .contact-item+.contact-item{
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .contact-item-link:hover{
@@ -223,9 +235,23 @@ section {
 
 .btn-hero:hover {
     background-color:
-     #188CE8;
+    #188CE8;
 }
+.hero-overlay {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    height: 600px;
+    background-image: 
+        /* linear-gradient(rgba(47, 48, 58, 0.4)), */
+        /* linear-gradient(rgba(47, 48, 58, 0.4)), */
+    
+        url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
+}
 /* ------------------------------НАШИ ПРЕИМУЩЕСТВА------------------- */
 .about-us {
     background-color: var(--primary-white-color);
