@@ -185,9 +185,9 @@ section {
 .header-contact-icon{
     width: 16px;
     height: 16px;
-    align-items: flex-end;
+    
     margin-right: 10px;
-    /* justify-content: flex-end; */
+    
 }
 
 .header-contact{
@@ -196,10 +196,10 @@ section {
     /* align-items: flex-end; */
 }  
 
-/* .contact-item{
+.contact-item{
     display: flex;
-    justify-content: right;
-} */
+    justify-content: bottom;
+}
 
 .contact-item-link {
      color: var(--primary-text-color);
@@ -215,7 +215,7 @@ section {
 /* -----------------------------------MAIN---------------------- */
 
 .hero {
-    background-color: #2F303A;
+    /* background-color: #2F303A; */
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -242,10 +242,11 @@ section {
     margin-right: auto;
     max-width: 1600px;
     height: 600px;
-    background-image: 
-        /* linear-gradient(rgba(47, 48, 58, 0.4)), */
-        /* linear-gradient(rgba(47, 48, 58, 0.4)), */
     
+
+    background-image:
+    linear-gradient( rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)), 
         url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
