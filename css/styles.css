@@ -198,11 +198,15 @@ section {
 
 .contact-item{
     display: flex;
-    justify-content: bottom;
+ 
+    
 }
 
 .contact-item-link {
      color: var(--primary-text-color);
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 .contact-item+.contact-item{
