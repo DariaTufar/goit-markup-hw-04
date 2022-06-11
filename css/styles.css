@@ -192,6 +192,10 @@ section {
     
 }
 
+.contact-item-link:hover .header-contact-icon{
+    fill: var(--accent-color);
+}
+
 .header-contact{
     display: flex;
     justify-content: right;
@@ -468,6 +472,12 @@ section {
     color: var(--title-text-color);
     
 }
+.clients-list{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .clients-item{
     display: flex; 
@@ -476,39 +486,47 @@ section {
     box-sizing: border-box;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-left: 30px;
-    /* padding-top: 186px; */
+    
 }
 .clients-item:first-child{
     margin-left: 0;
 }
-
-.clients-list{ 
+.clients-link{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
+
+
 
 .clients-logo{
     width: 106px;
     height: 60px;
     align-items: center;
     justify-content:center ;
+    fill: #AFB1B8;
 }
+
+.clients-link:hover .clients-logo,
+.clients-link:focus .clients-logo {
+    fill: var(--accent-color);
+}
+
 
 /* -------------------ФУТЕР---------------------- */
 .footer-main {
     background-color:  #2F303A;
-    padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
 
 .footer-logo {
     
     display: inline-block;
-
+    padding-top: 60px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -531,7 +549,7 @@ section {
  }
 
  .footer-contact-adress {
-     color:var(--primary-white-color);
+    color:var(--primary-white-color);
  }
  
  .footer-contact-link {
@@ -550,7 +568,22 @@ section {
     color: var(--accent-color);
  }
 
- .join-us-soc{
+.footer-wrap{
+    display: flex;
+}
+
+
+.footer-contact-wrap {
+}
+
+.footer-join-us-wrap {
+    padding-left: 70px;
+    padding-right: auto;
+    padding-top: 72px;
+    padding-bottom: 20px;
+}
+
+ .join-us-title{
     font-family: 'Roboto';
     /* font-style: normal; */
     font-weight: 700;
@@ -562,6 +595,35 @@ section {
 
  }
 
+.company-soc-list{
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.company-soc-item:hover,
+.company-soc-item:focus{
+    background-color: var(--accent-color);
+}
+
+.company-soc-item{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+   
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.company-soc-item:first-child{
+    margin-left: 0;
+}
+
+.company-soc-icon{
+    fill: var(--primary-white-color);
+}
 /* -------------------PAGE2--- - PORTFOLIO-------------- */
 
  
@@ -572,7 +634,7 @@ section {
 
 .portfolio-filter-btn+.portfolio-filter-btn{
    margin-left: 8px;
-  }
+}
 
 .portfolio-filter-btn {
     font-weight: 500;
