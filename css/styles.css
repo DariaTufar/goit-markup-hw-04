@@ -60,7 +60,7 @@ h1 {
 }
 img {
     display: block;
-     max-width: 100%;
+    max-width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
@@ -81,14 +81,14 @@ section {
     padding-bottom: 94px;
 }
 
- .btn {
+.btn {
     cursor: pointer;
     font-family: inherit;
     border-radius: 4px;
     padding:  10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
- }
+}
 
 .visually-hidden { 
     position: absolute;
@@ -101,7 +101,7 @@ section {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
- }
+}
 
 .container {
     width: 1200px;
@@ -131,10 +131,7 @@ section {
 }
 
 .header-logo {
-    /* padding-top: 24px; */
-    /* padding-bottom: 25px; */
     margin-right: 93px;
-
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -142,7 +139,6 @@ section {
     /* identical to box height */
     letter-spacing: 0.03em;
     text-decoration: none;
-
     color: var(--accent-color);
 }
 
@@ -154,8 +150,6 @@ section {
     display: flex;
     align-items: center;
 }
-
- 
 
 .header-item:not(:last-child) {
     margin-right: 50px;
@@ -177,7 +171,9 @@ section {
     color: var(--title-text-color);
 }
 
-.header-link:hover, .header-link:focus, .header-link:active {
+.header-link:hover, 
+.header-link:focus, 
+.header-link:active {
     color: var(--accent-color);
 }
 
@@ -187,9 +183,7 @@ section {
 .header-contact-icon{
     width: 16px;
     height: 16px;
-    
     margin-right: 10px;
-    
 }
 
 .contact-item-link:hover .header-contact-icon{
@@ -199,20 +193,18 @@ section {
 .header-contact{
     display: flex;
     justify-content: right;
-    /* align-items: flex-end; */
+
 }  
 
 .contact-item{
     display: flex;
- 
-    
 }
 
 .contact-item-link {
-     color: var(--primary-text-color);
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-item+.contact-item{
@@ -225,7 +217,6 @@ section {
 /* -----------------------------------MAIN---------------------- */
 
 .hero {
-    /* background-color: #2F303A; */
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -244,8 +235,7 @@ section {
 }
 
 .btn-hero:hover {
-    background-color:
-    #188CE8;
+    background-color:    #188CE8;
 }
 .hero-overlay {
     margin-left: auto;
@@ -256,7 +246,7 @@ section {
 
     background-image:
     linear-gradient( rgba(47, 48, 58, 0.4),
-     rgba(47, 48, 58, 0.4)), 
+    rgba(47, 48, 58, 0.4)), 
         url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -268,16 +258,14 @@ section {
 /* ------------------------------НАШИ ПРЕИМУЩЕСТВА------------------- */
 .about-us {
     background-color: var(--primary-white-color);
-     }
+}
 
 .about-us-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.about-us-item{
 
-}
 .about-us-box{
     width: 270px;
     min-height: 120px;
@@ -327,10 +315,6 @@ section {
     color: var(--title-text-color);
 }
 
-.our-work {
-
-}
-
 .our-work-list {
     display: flex; 
     justify-content: space-between;
@@ -341,13 +325,13 @@ section {
 
 .team {
     background: var(--background-gray);
-   
 }
+
 .team-member {
-    background: #FFFFFF;
+    background: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-     0px 1px 1px rgba(0, 0, 0, 0.14),
-     0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -360,20 +344,18 @@ section {
     margin-bottom: 50px;
 
     color: var(--title-text-color);
-  
+
 }
 .team-list {
-    /* margin-top: 50px; */
     display: flex;
     justify-content: space-between;
-     
 }
 
 .team-name-position{
     padding-top: 30px;
     padding-bottom: 30px;
 }
- 
+
 .team-member-name {
     
     font-weight: 500;
@@ -398,7 +380,7 @@ section {
     padding-left: 32px;
     padding-right: 32px;
     margin-top: 16px;
- }
+}
 
 .team-soc-item {
     width: 44px;
@@ -418,7 +400,6 @@ section {
     align-items: center; 
     justify-content: center;
     cursor: pointer;
-
 }
 
 
@@ -541,39 +522,35 @@ section {
     color: var(--primary-white-color);
 }
 
- .footer-contact-item { 
+.footer-contact-item { 
     font-style: normal;
     line-height: 1.71;
     font-size: 14px;
     letter-spacing: 0.03em;
- }
+}
 
- .footer-contact-adress {
+.footer-contact-adress {
     color:var(--primary-white-color);
  }
  
- .footer-contact-link {
+.footer-contact-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
- }
+}
 
 .footer-number {
     line-height:  1.71;
     color: rgba(255, 255, 255, 0.6);
- }
+}
 
 .footer-contact-adress:active, .footer-contact-adress:focus, .footer-contact-adress:hover,
 .footer-contact-link:active, .footer-contact-link:focus, .footer-contact-link:hover,
 .footer-number:active  .footer-number:focus, .footer-number:hover{
     color: var(--accent-color);
- }
+}
 
 .footer-wrap{
     display: flex;
-}
-
-
-.footer-contact-wrap {
 }
 
 .footer-join-us-wrap {
@@ -583,7 +560,7 @@ section {
     padding-bottom: 20px;
 }
 
- .join-us-title{
+.join-us-title{
     font-family: 'Roboto';
     /* font-style: normal; */
     font-weight: 700;
@@ -592,8 +569,7 @@ section {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-white-color);
-
- }
+}
 
 .company-soc-list{
     display: flex;
@@ -613,7 +589,7 @@ section {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
-   
+
     border-radius: 50%;
     margin-left: 10px;
 }
@@ -626,14 +602,13 @@ section {
 }
 /* -------------------PAGE2--- - PORTFOLIO-------------- */
 
- 
 .portfolio-filter-list {
     display: flex;
     justify-content: center;
- }
+}
 
 .portfolio-filter-btn+.portfolio-filter-btn{
-   margin-left: 8px;
+    margin-left: 8px;
 }
 
 .portfolio-filter-btn {
@@ -664,7 +639,7 @@ section {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
- 
+
 .portfolio-examples-list{
     display: flex;
     flex-wrap: wrap;
@@ -734,5 +709,5 @@ section {
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
-   
+
 }
