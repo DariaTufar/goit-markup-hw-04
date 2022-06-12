@@ -559,17 +559,12 @@ section {
 
 
 .footer-join-us-wrap {
-    
-    /* padding-right: auto; */
     padding-top: 72px;
-    /* padding-bottom: 20px; */
 }
 
 .join-us-title{
     font-family: 'Roboto';
-    /* font-style: normal; */
     font-weight: 700;
-    /* font-size: 14px; */
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
