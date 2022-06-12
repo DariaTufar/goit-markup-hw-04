@@ -238,12 +238,10 @@ section {
     background-color:    #188CE8;
 }
 .hero-overlay {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto ;
     max-width: 1600px;
     height: 600px;
     
-
     background-image:
     linear-gradient( rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)), 
@@ -251,9 +249,6 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0 auto ;
-    max-width: 1600px;
-
 }
 /* ------------------------------НАШИ ПРЕИМУЩЕСТВА------------------- */
 .about-us {
@@ -273,6 +268,7 @@ section {
     align-items: center;
     justify-content: center;
     background-color:  var(--background-gray)
+
 }
 
 .about-us-icon{
@@ -288,7 +284,7 @@ section {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    margin-top: 30px;
     color: var(--title-text-color);
 }
 
@@ -377,9 +373,9 @@ section {
     display: flex; 
     justify-content: center; 
     align-items: center;
-    padding-left: 32px;
-    padding-right: 32px;
+
     margin-top: 16px;
+
 }
 
 .team-soc-item {
@@ -410,7 +406,7 @@ section {
 
 .team-soc-icon:focus,
 .team-soc-icon:hover  {
-    fill: var(--primary-white-color)
+    fill: var(--primary-white-color);
     background-color: var(--accent-color);
 } 
 
@@ -441,7 +437,7 @@ section {
     align-items: center;
     justify-content: center;
     /* padding-top: 94px; */
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -470,8 +466,13 @@ section {
     justify-content: center;
     align-items: center;
     margin-left: 30px;
-    
 }
+
+.clients-item:hover,
+.clients-item:focus{
+    border: 1px solid var(--accent-color);
+}
+
 .clients-item:first-child{
     margin-left: 0;
 }
@@ -481,8 +482,6 @@ section {
     align-items: center;
 }
 
-
-
 .clients-logo{
     width: 106px;
     height: 60px;
@@ -491,23 +490,31 @@ section {
     fill: #AFB1B8;
 }
 
-.clients-link:hover .clients-logo,
-.clients-link:focus .clients-logo {
-    fill: var(--accent-color);
+.clients-item:hover .clients-logo,
+.clients-item:focus .clients-logo {
+    fill: var(--accent-color);    
 }
+
 
 
 /* -------------------ФУТЕР---------------------- */
 .footer-main {
-    background-color:  #2F303A;
+    display: flex;
     padding-bottom: 60px;
+    background-color:  #2F303A;
+}
+.footer-wrap{
     display: flex;
 }
 
+.footer-contact-wrap {
+    padding-top: 60px;
+    margin-right:  70px;
+
+}
 .footer-logo {
     
     display: inline-block;
-    padding-top: 60px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -531,8 +538,8 @@ section {
 
 .footer-contact-adress {
     color:var(--primary-white-color);
- }
- 
+}
+
 .footer-contact-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
@@ -549,15 +556,13 @@ section {
     color: var(--accent-color);
 }
 
-.footer-wrap{
-    display: flex;
-}
+
 
 .footer-join-us-wrap {
-    padding-left: 70px;
-    padding-right: auto;
+    
+    /* padding-right: auto; */
     padding-top: 72px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .join-us-title{
@@ -573,7 +578,7 @@ section {
 
 .company-soc-list{
     display: flex;
-    padding-top: 20px;
+    margin-top: 20px;
 
 }
 
@@ -672,7 +677,7 @@ section {
 }
 .portfolio-examples-item:hover,
 .portfolio-examples-item:hover{
-    box-shadow: border: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
     box-shadow: 
     0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
