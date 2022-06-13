@@ -259,6 +259,7 @@ section {
 /* ------------------------------НАШИ ПРЕИМУЩЕСТВА------------------- */
 .about-us {
     background-color: var(--primary-white-color);
+    padding-bottom: 0;
 }
 
 .about-us-list {
@@ -268,12 +269,12 @@ section {
 }
 .about-us-item{
     width: 270px;
-    min-height: 120px;
 }
 .about-us-box{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 120px;
     background-color:  var(--background-gray)
 }
 
@@ -443,7 +444,6 @@ section {
 .clients-title {
     align-items: center;
     justify-content: center;
-    /* padding-top: 94px; */
     margin-bottom: 50px;
     font-family: 'Roboto';
     font-style: normal;
